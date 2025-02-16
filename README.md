@@ -17,20 +17,17 @@ The model is trained to distinguish between different operational conditions, wi
 
 ## 📂 Project Structure  
 
-## 📂 Project Structure  
+| File/Folder                        | Description                                  |
+|------------------------------------|----------------------------------------------|
+| 📂 src                             | Core scripts for model training & evaluation |
+| ├── data_loader.py                 | Load & preprocess time-series data           |
+| ├── train.py                        | Train 1D-CNN model                           |
+| ├── evaluate.py                     | Evaluate model performance                   |
+| ├── visualization.py                | Generate Grad-CAM heatmaps & result plots    |
+| 📂 experiments                      | Contains training notebooks & performance analysis |
+| 📄 requirements.txt                 | Python dependencies                          |
+| 📄 README.md                        | Project documentation                        |
 
-| File/Folder                          | Description                                       |
-|--------------------------------------|---------------------------------------------------|
-| 📂 src                               | Core scripts for model training & evaluation     |
-| ├── data_loader.py                   | Load & preprocess time-series data               |
-| ├── train.py                          | Train 1D-CNN model                               |
-| ├── evaluate.py                       | Evaluate model (accuracy, confusion matrix)      |
-| ├── visualization.py                  | Generate Grad-CAM heatmaps & result plots        |
-| 📂 experiments                        | Training notebooks & performance analysis       |
-| 📄 time_series_classification.ipynb   | Full Jupyter Notebook for model training        |
-| 📄 requirements.txt                   | Python dependencies                             |
-| 📄 README.md                          | Project documentation                           |
-| 📄 .gitignore                         | Ignore unnecessary files                        |
 
 
 
