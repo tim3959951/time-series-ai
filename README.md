@@ -106,6 +106,7 @@ sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
 ```
 ### 🔹 Grad-CAM Heatmaps  
 Grad-CAM highlights which parts of the time-series input contribute most to the model’s decision.  
+This allows us to **interpret model predictions** and detect **sensor failures** based on learned features.
 
 | **Training Set Heatmap** | **Test Set Heatmap** |
 |-------------------|-------------------|
