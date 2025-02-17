@@ -100,7 +100,7 @@ sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
 
 📌 **Best Model**:  
 - **1D-CNN (Conv1D + MaxPooling + GlobalAvgPooling)**  
-- **Achieved 89.2% accuracy on validation set**  
+- **Achieved 99.8% accuracy on validation set**  
 
 📌 **What Worked Well**:  
 - **Cross-validation** improved robustness  
