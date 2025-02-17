@@ -39,12 +39,12 @@ The model is trained to distinguish between different operational conditions, wi
 
 ## 🔬 Data Processing  
 
-- **Source**: Time-series sensor data from **thubigdata2019training-230**  
+- **Dataset**: Time-series sensor data from **thubigdata2019training-230**  
+- **Total Samples**: **1,745** (after cleaning: **1,723**)  
 - **Preprocessing**:  
-  - Removed unit labels (Deg.F)  
-  - Converted all values to `float`  
-  - Normalised time-series data  
-  - **Total records**: **1,745**, with **1,723 valid samples**  
+  - Converted sensor readings to float  
+  - Normalised time-series data for stable training  
+
 
 ---
 
