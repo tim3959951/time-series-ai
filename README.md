@@ -37,13 +37,15 @@ The model is trained to distinguish between different operational conditions, wi
 
 ---
 
+
 ## 🔬 Data Processing  
 
-- **Dataset**: Time-series sensor data from **thubigdata2019training-230**  
-- **Total Samples**: **1,745** (after cleaning: **1,723**)  
-- **Preprocessing**:  
-  - Converted sensor readings to float  
-  - Normalised time-series data for stable training  
+- **Dataset**: Sensor time-series data from **thubigdata2019training-230**  
+- **Key Preprocessing Steps**:  
+  ✅ **Standardised time-series values** for consistency  
+  ✅ **Converted categorical labels to one-hot encoding**  
+  ✅ **Applied Min-Max Scaling** to normalise feature distributions  
+  ✅ **Removed invalid or missing records** (final dataset: **1,723 samples**)  
 
 
 ---
