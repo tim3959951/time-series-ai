@@ -109,7 +109,7 @@ Grad-CAM highlights which parts of the time-series input contribute most to the 
 
 | **Training Set Heatmap** | **Test Set Heatmap** |
 |-------------------|-------------------|
-| ![Train Grad-CAM](visualizations/VisualizationHeatMap_TrainTest1/) | ![Test Grad-CAM](visualizations/VisualizationHeatMap_TrueTest1/) |
+| ![Train Grad-CAM](visualizations/VisualizationHeatMap_TrainTest1/test_057.jpg) | ![Test Grad-CAM](visualizations/VisualizationHeatMap_TrueTest1/) |
 
 
 
