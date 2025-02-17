@@ -98,18 +98,20 @@ sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
 ---
 ## 🔥 Results & Key Findings  
 
-📌 **Best Model**:  
+📌 **Model Performance**:  
 - **1D-CNN (Conv1D + MaxPooling + GlobalAvgPooling)**  
-- **Achieved 99.8% accuracy on validation set**  
+- **Achieved 99.8% average accuracy (Cross-Validation), with best accuracy reaching 100.0%**  
+- **Official Test Accuracy (Competition Evaluation): 99.0%**  
 
 📌 **What Worked Well**:  
-- **Cross-validation** improved robustness  
-- **Grad-CAM** helped explain AI decisions  
-- **Data augmentation** enhanced generalisation  
+- **Cross-validation** improved model robustness and reduced overfitting.  
+- **Grad-CAM** provided interpretability by highlighting important regions in the time-series data.  
 
-📌 **Future Improvements**:  
-- Implement **self-supervised learning** for better feature extraction  
-- Deploy model on **embedded devices** for real-time monitoring  
+📌 **Limitations & Future Directions**:  
+- 🔹 **This project focused on 1D-CNN without comparing alternative architectures like LSTM or Transformers.**  
+- 🔹 **Future work may explore recurrent models (e.g., LSTM, GRU) or Transformer-based approaches to enhance time-series feature extraction.**  
+- 🔹 **Investigate real-world deployment feasibility on embedded devices.**  
+
 
 ---
 
