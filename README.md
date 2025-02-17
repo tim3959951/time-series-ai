@@ -111,21 +111,11 @@ Grad-CAM highlights which parts of the time-series input contribute most to the 
 |-------------------|-------------------|
 | ![Train Grad-CAM](visualizations/VisualizationHeatMap_TrainTest1/) | ![Test Grad-CAM](visualizations/VisualizationHeatMap_TrueTest1/) |
 
----
-
-### 🔹 Prediction vs. True Labels  
-Comparison of actual vs. predicted curves to assess model reliability.  
-
-| **Training Set Predictions** | **Test Set Predictions** |
-|------------------|------------------|
-| ![Train Predictions](visualizations/derivative_curves.jpg) | ![Test Predictions](visualizations/derivative_curves_test.jpg) |
-
----
 
 ### 🔹 Key Takeaways:  
 ✅ **Confusion Matrix** helps assess misclassification patterns.  
 ✅ **Grad-CAM** provides interpretability by highlighting relevant features.  
-✅ **Prediction vs. True Labels** visualizes how well the model generalizes across datasets.  
+
 
 
 ---
