@@ -11,7 +11,7 @@ The model is trained to distinguish between different operational conditions, wi
 - **Model**: 1D-CNN with **Conv1D**, **MaxPooling**, and **GlobalAveragePooling**  
 - **Techniques**: K-Fold Cross-Validation, Data Augmentation, Grad-CAM for interpretability  
 - **Competition Performance**: Achieved **99.8% average accuracy** in cross-validation, with an **official test accuracy of 99.0%**, ranking among the top solutions. 
-- **Deployment**: Future goal to optimise for **real-time monitoring & edge inference**  
+
 
 ---
 
@@ -132,7 +132,7 @@ Grad-CAM highlights which parts of the time-series input contribute most to the 
 📌 **Limitations & Future Directions**:  
 - 🔹 **This project focused on 1D-CNN without comparing alternative architectures like LSTM or Transformers.**  
 - 🔹 **Future work may explore recurrent models (e.g., LSTM, GRU) or Transformer-based approaches to enhance time-series feature extraction.**  
-- 🔹 **Investigate real-world deployment feasibility on embedded devices.**  
+
 
 ---
 ## 🌍 Why It Matters  
