@@ -92,7 +92,7 @@ Softmax Output: Multi-class classification
 
 ✅ **Confusion Matrix**: Evaluates classification accuracy across all classes  
 ✅ **Grad-CAM Heatmaps**: Highlights key areas influencing model decisions  
-✅ **Prediction vs. True Labels**: Assesses model reliability  
+
 
 ### Confusion Matrices  
 | Training Set | Test Set |
@@ -111,10 +111,6 @@ Grad-CAM highlights which parts of the time-series input contribute most to the 
 |-------------------|-------------------|
 | ![Train Grad-CAM](visualizations/VisualizationHeatMap_TrainTest1/) | ![Test Grad-CAM](visualizations/VisualizationHeatMap_TrueTest1/) |
 
-
-### 🔹 Key Takeaways:  
-✅ **Confusion Matrix** helps assess misclassification patterns.  
-✅ **Grad-CAM** provides interpretability by highlighting relevant features.  
 
 
 
