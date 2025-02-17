@@ -132,7 +132,7 @@ This allows us to **interpret model predictions** and detect **sensor failures**
 
 📌 **Limitations & Future Directions**:  
 - 🔹 **This project focused on 1D-CNN without comparing alternative architectures like LSTM or Transformers.**  
-- 🔹 **Future work may explore alternative architectures such as **Hybrid CNN-RNNs (e.g., LSTM, GRU), Temporal CNNs, or Transformer-based models** to enhance time-series feature extraction while maintaining efficient inference. **  
+- 🔹 **Future work may explore Hybrid CNN-RNNs, Temporal CNNs, or Transformers for improved feature extraction & efficiency.**  
 - 🔹**Investigate model quantisation (e.g., TensorFlow Lite, ONNX)** to optimise for real-time deployment.**  
 
 
