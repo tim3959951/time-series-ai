@@ -24,7 +24,7 @@ The model is trained to distinguish between different operational conditions, wi
 | 📄 requirements.txt    | Python dependencies                              |
 | 📄 README.md           | Project documentation                           |
 | 📄 .gitignore          | Ignore unnecessary files                         |
-| 📄 2019_IMBD_ShuJiBao_Vis_1D_CNN_final.ipynb | Main Jupyter Notebook |
+| 📄 2019_IMBD_1D_CNN.ipynb | Main Jupyter Notebook |
 
 
 
