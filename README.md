@@ -81,15 +81,18 @@ Softmax Output: Multi-class classification
   - **Average accuracy**: **99.8%**  
 
 ---
-
 ## 📈 Model Performance  
 
-✅ **Confusion Matrix**: Visualises model accuracy across all classes  
+✅ **Confusion Matrix**: Evaluates classification accuracy across all classes  
 ✅ **Grad-CAM Heatmaps**: Highlights key areas influencing model decisions  
-✅ **Prediction vs. True Labels**: Evaluates model reliability  
+✅ **Prediction vs. True Labels**: Assesses model reliability  
 
-Example Confusion Matrix:
+### Confusion Matrices  
+| Training Set | Test Set |
+|-------------|---------|
+| ![Train Confusion Matrix](visualizations/train_confusion_matrix.jpg) | ![Test Confusion Matrix](visualizations/test_confusion_matrix.jpg) |
 
+Example Code:  
 ```python
 cm = confusion_matrix(y_true, y_pred)
 sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
