@@ -17,20 +17,14 @@ The model is trained to distinguish between different operational conditions, wi
 
 ## 📂 Project Structure  
 
-| File/Folder                        | Description                                  |
-|------------------------------------|----------------------------------------------|
-| 📂 src                             | Core scripts for model training & evaluation |
-| ├── data_loader.py                 | Load & preprocess time-series data           |
-| ├── train.py                        | Train 1D-CNN model                           |
-| ├── evaluate.py                     | Evaluate model performance                   |
-| ├── visualization.py                | Generate Grad-CAM heatmaps & result plots    |
-| 📂 experiments                      | Contains training notebooks & performance analysis |
-| 📄 requirements.txt                 | Python dependencies                          |
-| 📄 README.md                        | Project documentation                        |
-
-
-
-
+| File/Folder             | Description                                      |
+|-------------------------|--------------------------------------------------|
+| 📂 src                 | Contains all core scripts                        |
+| 📂 visualizations      | Stores generated plots & Grad-CAM heatmaps       |
+| 📄 requirements.txt    | Python dependencies                              |
+| 📄 README.md           | Project documentation                           |
+| 📄 .gitignore          | Ignore unnecessary files                         |
+| 📄 2019_IMBD_ShuJiBao_Vis_1D_CNN_final.ipynb | Main Jupyter Notebook |
 
 
 
@@ -118,28 +112,4 @@ sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
 - 🔹 **Investigate real-world deployment feasibility on embedded devices.**  
 
 
----
-
-## 📌 How to Run  
-
-1️⃣ **Install dependencies**  
-```bash
-pip install -r requirements.txt
-```
-1️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
-```
-2️⃣ **Train the model**
-```bash
-python src/train.py
-```
-3️⃣ **Evaluate the model**
-```bash
-python src/evaluate.py
-```
-4️⃣ **Visualise results**
-```bash
-python src/visualization.py
-```
 
