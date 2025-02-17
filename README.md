@@ -10,7 +10,7 @@ The model is trained to distinguish between different operational conditions, wi
 - **Dataset**: Industrial sensor readings from **IMBD AI & Big Data Competition**  
 - **Model**: 1D-CNN with **Conv1D**, **MaxPooling**, and **GlobalAveragePooling**  
 - **Techniques**: K-Fold Cross-Validation, Data Augmentation, Grad-CAM for interpretability  
-- **Performance**: **90.9% average accuracy**, with best model achieving **91.2% accuracy**  
+- **Performance**: **99.8% average accuracy**, with best model achieving **100.0% accuracy**  
 - **Deployment**: Future goal to optimise for **real-time monitoring & edge inference**  
 
 ---
@@ -77,8 +77,8 @@ Softmax Output: Multi-class classification
 - **K-Fold Cross-Validation**: 5-fold  
 - **Training Setup**:  
   - `epochs=50`, `batch_size=100`  
-  - **Best accuracy**: **91.2%**  
-  - **Average accuracy**: **90.9%**  
+  - **Best accuracy**: **100.0%**  
+  - **Average accuracy**: **99.8%**  
 
 ---
 
